@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #FFC4C4;
+}
+
+@media (min-width: 500px) {
+  .pomodoro {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.main {
+  margin-bottom: 61px;
+}
+
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.display {
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 72px;
+  font-weight: 700;
+  color: #4C3575;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  border: 0;
+  background: #FEF9A7;
+  color: #4C3575;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 110px;
+  margin: 1px;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background: #FF869E;
+}
+
+.btn:active, .btn:focus {
+  outline: 0;
+  background: #FF869E;
+}
+
+.btnIcon {
+  border: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  background-size: 50px;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.btnIcon:hover {
+  opacity: .8;
+}
+
+.btnIcon:active, .btnIcon:focus {
+  outline: 0;
+  opacity: .5;
+}
+
+.play {
+  background-image: url("../img/play.svg");
+}
+
+.stop {
+  background-image: url("../img/stop.svg");
+}
+
+.bottomBar {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.credits {
+  color: #4C3575;
+  background: #FEF9A7;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
