@@ -1,7 +1,7 @@
 {
   "name": "react-pomodoro",
   "version": "0.4.1",
-  "description": "Pomodoro timer for developers.",
+  "description": "Pomodoro timer.",
   "main": "webpack.config.js"
 
   }
